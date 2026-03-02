@@ -1,0 +1,30 @@
+# Inputação de dados em variáveis...
+print("Digite o seu nome:")
+MyName = str(input())
+print("Digite a sua altura:")
+MyHeight = float(input())
+print("Digite a sua idade:")
+MyAge = int(input())
+print("Digite o seu peso:")
+MyWeight = float(input())
+print("Digite o seu time de futebol:")
+MyTeam = (input())
+print("Digite a sua prentenção salarial:")
+MySalary = float(input())
+
+
+# Exibição do conteúdo das variáveis...
+print("Meu nome é", MyName)
+print("A minha altura é", MyHeight, "metros.")
+print("Minha idade é", MyAge, "anos")
+print("Minha data peso é",  MyWeight, "Kg.")
+print("Meu time de futebol é", MyTeam)
+print("Minha pretenção salarial é", MySalary, "Reais")
+
+print (type (MyName))
+print (type (MyHeight))
+print (type(MyAge))
+print (type(MyTeam))
+print (type(MyWeight))
+print (type(MyTeam))
+print (type(MySalary))
