@@ -1,12 +1,13 @@
-# Ativadade 1
-X = int(input("Digite o valor de X: "))
-Y = int(input("Digite o valor de Y: "))
+# Atividade 01
 
-VALOR = X + 5
-print("O resultao da expressão #1 é:", VALOR)
+print("Digite o seu saldo atual:")
+Saldo = float(input())
 
-VALOR = Y - 3
-print("O resultao da expressão #2 é:", VALOR)
+print("Digite o valor do produto que deseja comprar:")
+Produto = float(input())
 
-# Experimentar o GitHub...
-#
+if Saldo >= Produto:
+    print("Parabéns pela compra!")
+else:
+    print("Você não possui saldo suficiente para realizar esta compra.")
+    print("Você nao poderá relizar está compra, sinto muito...")

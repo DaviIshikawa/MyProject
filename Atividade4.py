@@ -1,6 +1,26 @@
-# Atividade 4
+# Atividade 04
 
-AnoDeNascimento = int(input("Digite o seu ano de nascimento: "))
+print("Digite um filme/série")
+FILMESÉRIE = input()
 
-Idade = 2040 - AnoDeNascimento
-print("O resultado é: ", Idade)
+print("Digite um número de 1 a 5:")
+
+NUMERO = int(input())
+
+match NUMERO:
+    case 1:
+        print("Péssimo")
+        motivo = input("Por que você achou o filme Péssimo?")
+        print("Entendido, avaliação registrada")
+    case 2:
+        print("Ruim")
+        motivo = input("Por que você achou o filme ruim?")
+        print("Entendido, avaliação registrada")
+    case 3:
+        print("Razoável")
+    case 4:
+        print("Bom")
+    case 5:
+        print("Ótimo")
+    case _:
+        print("ALERTA! Número não identificado")
