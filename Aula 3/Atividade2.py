@@ -1,16 +1,6 @@
-# Atividade 02
+# ATIVIDADE 02
+produto = float(input("Digite o valor do produto: "))
+QuantPrestacao = int(input("Digite a quantidade de prestação: "))
 
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
-nota3 = float(input("Digite a terceira nota: "))
-nota4 = float(input("Digite a quarta nota: "))
-
-media = (nota1 + nota2 + nota3 + nota4) / 4
-
-print("Média:", media)
-
-match media >= 6:
-    case True:
-        print("Aluno Aprovado")
-    case False:
-        print("Aluno Reprovado")
+VALOR = produto / QuantPrestacao
+print("O valor de cada prestação é: ", VALOR)
